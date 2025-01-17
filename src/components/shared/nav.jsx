@@ -6,10 +6,18 @@ const Navbar = () => {
         <>
             <nav>
                 <div className="container">
-                    <div className="nav-count d-flex">
-                        <NavLogoBtn /> 
-                        <NavLinks />
-                        <MainBtn />
+                    <div className="row">
+                        <div className="row d-flex align-item-center justify-content-between">
+                            <div className="b col-4">
+                                <NavLogoBtn />
+                            </div>
+                            <div className="b col-4 align-item-center">
+                                <NavLinks />
+                            </div>
+                            <div className="b col-4">
+                                {/* <MainBtn /> */}
+                            </div>
+                        </div>                        
                     </div>
                 </div>
             </nav>
