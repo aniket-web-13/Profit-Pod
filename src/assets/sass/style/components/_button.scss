@@ -10,3 +10,21 @@ ul{
         list-style: none;
     }
 }
+
+.btn{
+    background-color: #FD5E0A;
+    color: white;
+    border-radius: 3.75rem;
+    font-weight: 600;
+    padding: 0.5rem 1.25rem;
+    &:hover{
+        background-color: #FD5E0A;
+        color: white;
+    }
+}
+.rounded-circle{
+    background-color: #031519;
+    width: 50%;
+    height: 100%;
+    color: white;
+}

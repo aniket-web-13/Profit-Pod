@@ -6,16 +6,18 @@ const Navbar = () => {
         <>
             <nav>
                 <div className="container">
-                    <div className="row">
+                    <div className="">
                         <div className="row d-flex align-item-center justify-content-between">
-                            <div className="b col-4">
+                            <div className="b col-3">
                                 <NavLogoBtn />
                             </div>
                             <div className="b col-4 align-item-center">
                                 <NavLinks />
                             </div>
-                            <div className="b col-4">
-                                {/* <MainBtn /> */}
+                            <div className="b col-3">
+                                <MainBtn 
+                                    btnName={"Get Started"}
+                                />
                             </div>
                         </div>                        
                     </div>
