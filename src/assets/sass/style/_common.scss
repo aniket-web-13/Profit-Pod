@@ -1,16 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
 
-body{
+body {
     font-family: "Inter Tight", serif;
 }
 
 
-.container{
+.container {
     border: 1px solid black;
 }
 
-p{
+p {
+    margin-bottom: 0;
+    font-size: 1rem;
     font-weight: 500;
-    line-height: 1rem;
-    margin: 0;
+    line-height: 1.5rem;
+    color: #91989A;
+}
+
+h1 {
+    font-weight: 600 !important;
+    columns: #031519 !important;
 }

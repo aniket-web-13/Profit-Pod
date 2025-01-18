@@ -1,30 +1,29 @@
+// .b {
+//     border: 1px solid black;
+// }
 
-
-
-
-.b{
-    border: 1px solid black;
-}
-ul{
-    li{
+ul {
+    li {
         list-style: none;
     }
 }
 
-.btn{
+.btn {
     background-color: #FD5E0A;
     color: white;
     border-radius: 3.75rem;
     font-weight: 600;
     padding: 0.5rem 1.25rem;
-    &:hover{
+
+    &:hover {
         background-color: #FD5E0A;
         color: white;
     }
 }
-.rounded-circle{
+
+.rounded-circle {
     background-color: #031519;
-    width: 50%;
+    width: 20%;
     height: 100%;
     color: white;
 }

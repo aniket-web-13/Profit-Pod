@@ -1,10 +1,12 @@
+import { Header } from "../../components/shared/header";
 import { Navbar } from "../../components/shared/nav";
 
 
 const Home = () => {
-    return(
+    return (
         <>
-        <Navbar />
+            <Navbar />
+            <Header />
         </>
     )
 }

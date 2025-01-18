@@ -38,7 +38,7 @@ export const NavLinks = () => {
                         <>
                             <div className="col-3 text-center">
                                 <ul className="m-0 p-0">
-                                    <li><p>{value.name}</p></li>
+                                    <li><p style={{ color: "#373942" }}>{value.name}</p></li>
                                 </ul>
                             </div>
                         </>
@@ -55,10 +55,8 @@ export const MainBtn = ({ btnName }) => {
     return (
         <>
             <div className="row">
-                <div className="col-7">
+                <div className="col d-flex align-items-center gap-1">
                     <button type="button" className="btn">{btnName}</button>
-                </div>
-                <div className="col text-left">
                     <div className="rounded-circle d-flex align-items-center justify-content-center">
                         <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-play-circle-fill" viewBox="0 0 16 16">
                             <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814z" />
